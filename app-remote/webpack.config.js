@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'app-remote',
 
   exposes: {
-    './Rubrica': './src/app/rubrica/rubrica.module.ts',
+    './AppRemote': './src/app/rubrica/rubrica.module.ts',
   },
 
   shared: {

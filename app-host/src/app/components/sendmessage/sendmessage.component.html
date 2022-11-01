@@ -1,0 +1,20 @@
+<form [formGroup]="form">
+    <div class="mb-3">
+      <label class="form-label">nome</label>
+      <input type="text" class="form-control" formControlName="nome">
+      
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Cognome</label>
+        <input type="text" class="form-control" formControlName="cognome">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" formControlName="email">
+      </div>
+      <div class="alert alert-warning" role="alert" *ngIf="form.invalid">
+       Tutti i campi sono obbligatori
+      </div>
+      <button type="button" class="btn btn-primary" (click)="apriRubrica()">Carica da rubrica</button>
+    <button type="submit" class="m-2 btn btn-primary" [disabled]="form.invalid">Invia</button>
+  </form>
