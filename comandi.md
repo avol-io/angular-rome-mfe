@@ -12,3 +12,5 @@
 12. creo una libreria shared con un POTENTISSIMO sistema di comunicazione
 13. la installo localmente su i due progetti e gestisco manualmente la condivisione delle librerie tra mFE
 14. tutto questo per far vedere un problema.
+15. risolvo il problema delle librerie
+16. Fine demo.
