@@ -9,3 +9,6 @@
 9. arricchiamo un pò l'app shell 
 10. modifica webpack in app-host [open](./app-host/webpack.config.js) (anche se poi non lo useremo)
 11. aggiungo il remoto routing tramite loadRemoteModule
+12. creo una libreria shared con un POTENTISSIMO sistema di comunicazione
+13. la installo localmente su i due progetti e gestisco manualmente la condivisione delle librerie tra mFE
+14. tutto questo per far vedere un problema.

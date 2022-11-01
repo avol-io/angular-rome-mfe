@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Persona } from '../models/persona.model';
+import { Persona } from 'shared';
 
 @Injectable({
   providedIn: 'root',

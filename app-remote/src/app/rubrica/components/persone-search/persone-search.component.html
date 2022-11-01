@@ -1,6 +1,7 @@
 <div class="list-group w-auto">
     <h1>Persone</h1>
-    <a *ngFor="let persona of personeGet|async" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <a *ngFor="let persona of personeGet|async" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true" 
+    (click)="inviaDettaglio(persona)">
       <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
       <div class="d-flex gap-2 w-100 justify-content-between">
         <div>
